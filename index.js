@@ -153,7 +153,7 @@ class Instructor extends Lambdasian {
   }
 
   grade(student, subject) {
-    `${student.name} receives a perfect score on ${subject}`;
+    return `${student.name} receives a perfect score on ${subject}`;
   }
 }
 
